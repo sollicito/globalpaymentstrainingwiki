@@ -525,7 +525,7 @@
                             <span class="tag duration">40+ hours</span>
                         </div>
                     </div>
-                     <div class="card">
+                     <div class="card" style="display:none">
                         <h4><a href="https://docs.google.com/document/d/1teHR73_PSGCuvJ8dTh_q1_rN18qdl4zQEBNnAoquHac/edit" target="_blank">A Rough Guide To Equivalent Components in Azure to GCP</a></h4>
                         <p>An informal but useful Google Doc providing a direct mapping of components between Azure and GCP. Note: This is a community-style resource and may require access request.</p>
                         <div class="card-footer">
