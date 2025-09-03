@@ -1,0 +1,190 @@
+/* --- Basic Setup --- */
+:root {
+    --primary-text: #202124;
+    --secondary-text: #5f6368;
+    --border-color: #dadce0;
+    --background-color: #f8f9fa;
+    --card-background: #ffffff;
+    --accent-blue: #1a73e8;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+
+    --level-intro-bg: #e8f0fe;
+    --level-intro-text: #1967d2;
+    --level-intermediate-bg: #e6f4ea;
+    --level-intermediate-text: #1e8e3e;
+    --level-advanced-bg: #fce8e6;
+    --level-advanced-text: #d93025;
+    --level-all-bg: #fef7e0;
+    --level-all-text: #f29900;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--primary-text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* --- Header --- */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--primary-text);
+}
+
+header p {
+    font-size: 1.1rem;
+    color: var(--secondary-text);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* --- Section and Headings --- */
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-blue);
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--secondary-text);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* --- Card Grid Layout --- */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+/* --- Card Styling --- */
+.card {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 2px var(--shadow-color);
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.card h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.card h4 a {
+    text-decoration: none;
+    color: var(--accent-blue);
+}
+
+.card h4 a:hover {
+    text-decoration: underline;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: var(--secondary-text);
+    flex-grow: 1; /* Pushes footer to the bottom */
+}
+
+/* --- Card Footer & Tags --- */
+.card-footer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.tag.format {
+    background-color: #e0e0e0;
+    color: var(--secondary-text);
+}
+
+.tag.duration {
+    background-color: #f1f3f4;
+    color: var(--secondary-text);
+}
+
+.tag.level-intro {
+    background-color: var(--level-intro-bg);
+    color: var(--level-intro-text);
+}
+
+.tag.level-intermediate {
+    background-color: var(--level-intermediate-bg);
+    color: var(--level-intermediate-text);
+}
+
+.tag.level-advanced {
+    background-color: var(--level-advanced-bg);
+    color: var(--level-advanced-text);
+}
+
+.tag.level-all {
+    background-color: var(--level-all-bg);
+    color: var(--level-all-text);
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
