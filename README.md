@@ -79,7 +79,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <h4><a href="https://www.cloudskillsboost.google/course_templates/991?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=52610103" target="_blank">Getting Started with FinOps on Google Cloud</a></h4>
+                        <h4><a href="https://www.cloudskillsboost.google/course_templates/767" target="_blank">Getting Started with FinOps on Google Cloud</a></h4>
                         <p>This course introduces the principles of FinOps (Cloud Financial Management) for practitioners. It covers how to manage and optimize cloud costs, a critical skill for any Cloud Architect.</p>
                         <div class="card-footer">
                             <span class="tag format">Course</span>
