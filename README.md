@@ -181,6 +181,24 @@
                             <span class="tag duration">20 hours</span>
                         </div>
                     </div>
+ <div class="card">
+                        <h4><a href="https://static.googleusercontent.com/media/sre.google/en//static/pdf/enterprise-roadmap-to-sre.pdf" target="_blank">Google SRE for the Enterprise eBook</a></h4>
+                        <p>why a commitment to the entire service life cycle enables your organization to successfully build, deploy, monitor, and maintain software system</p>
+                        <div class="card-footer">
+                            <span class="tag format">Book</span>
+                            <span class="tag level-advanced">Advanced</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4><a href="https://sre.google/resources/practices-and-processes/anatomy-of-an-incident/" target="_blank">Anatomy of an incident Google eBook</a></h4>
+                        <p>Google's approach to Incident Management in Production</p>
+                        <div class="card-footer">
+                            <span class="tag format">Book</span>
+                            <span class="tag level-advanced">Advanced</span>
+                      
+                        </div>
+                    </div>
+
                 </div>
                 <h3>Startup Cloud Engineer</h3>
                 <div class="card-grid">
