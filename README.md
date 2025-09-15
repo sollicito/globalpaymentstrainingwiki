@@ -14,7 +14,7 @@
         <header>
             <h1>Google Cloud Training and Enablement Catalog</h1>
             <p>Global Payments source of training and resources to help you "self-serve" with what you need in Google Cloud - whether you are a beginner or an expert, hopefully you will find here what you need! <br/>Please contact sollicito@google.com if you have any questions, suggestions, etc.</p>
-          <br/>  <a href="youtubetraininglinks.htm" target="_new"><h1>For a list of useful training videos in Google Products click here</h1></a> 
+          <br/> <h1> <a href="youtubetraininglinks.htm" target="_new">For a list of useful training VIDEOS in Google Cloud Products click here</a> </h1>
         </header>
     
         <main>
